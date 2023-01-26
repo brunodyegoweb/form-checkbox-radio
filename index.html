@@ -9,8 +9,29 @@
 <body>
     <form action="cadasro.php" method="get">
         <fieldset>
-            <legend>Esportes Favoritos</legend>
+            <legend>Sexo</legend>
+            <p>
+                <label for="imasculino"><input type="radio" name="sexo" id="imasculino" checked>Masculino</label>
+            </p>
+            <p>
+                <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino">Feminino</label>
+            </p>
+
         </fieldset>
+        <fieldset> 
+            <legend>Esportes Favoritos</legend>
+            <p><label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete">Basquete</label></p>
+
+            <p><label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol">Futebol</label></p>
+
+            <p><label for="inatacao"><input type="checkbox" name="natacao" id="inatacao">natação</label></p>
+
+            <p><label for="itenis"><input type="checkbox" name="tenis" id="itenis">Tenis</label></p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
