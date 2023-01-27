@@ -5,30 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <!--Estilo resset-->
     <link rel="stylesheet" href="estilos/resset.css">
+    <!--Estilo geral-->
     <link rel="stylesheet" href="estilos/geral.css">
+    <!--Fontes externas-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Satisfy&display=swap"
+      rel="stylesheet"
+      />
 </head>
 <body>
+    <!--Início do Formulário-->
     <form class="form" action="cadastro.php" method="get">
-        <fieldset>
-            <legend>Sexo</legend>
-            <p>
-                <label for="imasculino"><input type="radio" name="sexo" id="imasculino" checked>Masculino</label>
-            </p>
-            <p>
-                <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino">Feminino</label>
-            </p>
+        <fieldset class="field">
+            <legend><i>Sexo</i></legend>
+        
+                <label for="imasculino"><input type="radio" name="sexo" id="imasculino"checked> Masculino</label>
+            
+        
+                <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino"> Feminino</label>
+            
 
         </fieldset>
-        <fieldset> 
-            <legend>Esportes Favoritos</legend>
-            <p><label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete">Basquete</label></p>
+        <fieldset class="field"> 
+            <legend><i>Esportes Favoritos</i></legend>
+        <p>
+            <label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete"> Basquete</label>
+            <label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol"> Futebol</label>
+        </p>
 
-            <p><label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol">Futebol</label></p>
-
-            <p><label for="inatacao"><input type="checkbox" name="natacao" id="inatacao">natação</label></p>
-
-            <p><label for="itenis"><input type="checkbox" name="tenis" id="itenis">Tenis</label></p>
+        <p>
+            <label for="inatacao"><input type="checkbox" name="natacao" id="inatacao">natação</label>
+            <label for="itenis"><input type="checkbox" name="tenis" id="itenis"> Tenis</label>
+        </p>
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
