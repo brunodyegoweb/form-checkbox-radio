@@ -6,7 +6,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Roboto', sem serifa;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color:  rgba(0, 0, 0, 0.411);
     background-image: linear-gradient(to top, purple, orange);
@@ -17,11 +17,23 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 60%;
     text-align: center;
 }
 
 .field {
     padding: 20px;
     border:2px solid #fff;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color:  rgba(0, 0, 0, 0.411);
+}
+
+.btn:hover {
+    color: #000;
 }
